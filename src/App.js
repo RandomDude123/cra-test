@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import { Box, Input } from "@material-ui/core";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -17,6 +18,13 @@ function App() {
         >
           Learn React
         </a>
+        <Box
+          style={{ backgroundColor: "white" }}
+          marginTop="16px"
+          padding="32px"
+        >
+          <Input defaultValue="Hello" />
+        </Box>
       </header>
     </div>
   );
